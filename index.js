@@ -98,7 +98,7 @@ function onholdState() {
   document.getElementById(`score--${activeplayer}`).textContent =
     score[activeplayer];
   currentScore = 0;
-  if (score[activeplayer] >= 2) {
+  if (score[activeplayer] >= 100) {
     alert(`player ${activeplayer + 1} wins 🥂`);
 
     initialState();
